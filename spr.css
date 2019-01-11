@@ -1,0 +1,26 @@
+body {
+            font-family:"Comic Sans MS", cursive, sans-serif;
+            font-size:16px;
+        }
+        canvas {
+            display:block;
+            margin:20px auto;
+            width:400px;
+            height:200px;
+            border:2px solid #333;
+        }
+        .controls {
+            width:400px;
+            margin:10px auto;
+        }
+        .controls > div {
+            border-bottom:1px solid #EEE;
+            padding:5px 0;
+        }
+        .controls label {
+            width:200px;
+            display:inline-box;
+        }
+        .controls input {
+            vertical-align:middle;
+        }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<u><h1> Calculation of amplitude of the spring mass system </h1></u>
+<br>
+<h1 id="answer"></h1>
+
+Mass(in Kg)<input type="text" id="num1">
+<br>
+<br>
+Force Constant<input type="text" id="num2">
+<br>
+<br>
+<button onclick="calculate()">Calculate</button>
+
+<script>
+  function calculate()
+  {
+   var field1=document.getElementById("num1").value;
+   var field2=document.getElementById("num2").value;
+ 
+   var result=(parseFloat(field1)*9.8)/parseFloat(field2);
+
+   if(!isNaN(result))
+   {
+    document.getElementById("answer").innerHTML="The maximum displacement is "+result;
+   }
+  }
+
+</script>
+<br>
+<br>
+<a href="project.html"> HOME PAGE </a>
+</body>
+</html>
